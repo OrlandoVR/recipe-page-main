@@ -1,0 +1,84 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+
+    --nutmeg: hsl(14, 45%, 36%);
+
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --rose-white: hsl(330, 100%, 98%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  body{
+    background-color: var(--eggshell);
+    display: flex;
+    justify-content: center;
+  }
+
+  h3 {
+      color: var(--dark-raspberry);
+  }
+
+  .container {
+      background-color: var(--white);
+      width: 720px;
+      padding: 25px;
+      border-radius: 15px;
+  }
+
+  img {
+      max-width: 100%;
+      border-radius: 10px;
+  }
+
+  .preparacion {
+    padding: 5px 0px 0px 0px;
+    border-radius: 10px;
+    background-color: var(--rose-white);
+  }
+
+  .preparacion p {
+      margin-left: 20px;
+      color: purple;
+  }
+
+  .preparacion ul li {
+      padding-bottom: 13px;
+      list-style-position: outside;
+      padding-left: 20px;
+  }
+
+  ol li::marker{
+      color: var(--dark-raspberry);
+  }
+
+  table {
+      width: 100%;
+      border-collapse: collapse;
+  }
+
+  td {
+    padding: 10px;
+    border-bottom: 1px solid var(--light-grey);
+    text-align: left;
+  }
+
+  td:nth-child(2) {
+    color: var(--nutmeg); /* Resalta los valores con un color específico */
+  }
+
+
+  
+
+  
